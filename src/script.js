@@ -22,4 +22,4 @@ const calculate = () => {
 };
 
 if (typeof module !== 'undefined') 
-module.exports = (calculatedSimpleInterest, calculateTotalPayableAmount, calculate);
+  module.exports = {calculateSimpleInterest, calculateTotalPayableAmount, calculate};
